@@ -24,9 +24,9 @@ headersRecords = ['pay_to', 'amount_words', 'amount', 'address', 'purpose', 'dra
 
 def refresh_records():
     dbms2 = mysql.connector.connect(host="127.0.0.1",
-                                    user="root",
-                                    password="password",
-                                    database="medivet")
+                                    user='', # Your Username
+                                    password='', #Your Password
+                                    database='') #Database Name
 
     myCursor2 = dbms2.cursor()
     data = []
