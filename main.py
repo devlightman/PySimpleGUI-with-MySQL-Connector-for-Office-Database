@@ -4,9 +4,9 @@ import mysql.connector
 # MySQL Connection
 
 dbms = mysql.connector.connect( host='127.0.0.1', 
-                                user='root', 
-                                password='password', 
-                                database='medivet')
+                                user='', # Your Username
+                                password='', #Your Password
+                                database='') #Database Name
 
 myCursor = dbms.cursor()
 
